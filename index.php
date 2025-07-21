@@ -6,27 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Primary Meta Tags -->
     <title>Primas | Cable Tray & Cable Ladder Solutions Indonesia</title>
     <meta name="description" content="Primas menyediakan solusi Cable Tray dan Cable Ladder berkualitas tinggi di Indonesia dengan harga kompetitif dan layanan profesional sejak 2007.">
     <meta name="keywords" content="primas cable tray, primas cable ladder, cable tray, cable ladder, sistem penyangga kabel, aksesori kabel, HDG, powder coating">
     <link rel="canonical" href="https://primastray.com/">
 
-    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://primastray.com/">
     <meta property="og:title" content="Primas | Cable Tray & Cable Ladder Solutions Indonesia">
     <meta property="og:description" content="Solusi Cable Tray & Cable Ladder berkualitas tinggi dengan harga kompetitif dan layanan terbaik. Cari produk unggulan kami hari ini!">
     <meta property="og:image" content="https://primastray.com/content/images/og-image.jpg">
 
-    <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://primastray.com/">
     <meta property="twitter:title" content="Primas | Cable Tray & Cable Ladder Solutions Indonesia">
     <meta property="twitter:description" content="Solusi Cable Tray & Cable Ladder berkualitas tinggi dengan harga kompetitif dan layanan terbaik. Cari produk unggulan kami hari ini!">
     <meta property="twitter:image" content="https://primastray.com/content/images/og-image.jpg">
 
-    <!-- Structured Data -->
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -52,22 +48,24 @@
 
 <body>
   <div class="navbar" id="navbar">
-    <a href="#about">Tentang Produk</a>
-    <a href="#produk">Produk</a>
-    <div class="navbar-logo">
-      <a href="/">
-        <img src="content/images/PRIMAS.svg" alt="Primas Logo" />
-      </a>
+    <div class="navbar-top">
+        <div class="navbar-logo">
+            <a href="/">
+                <img src="content/images/IUS.svg" alt="Primas Logo" />
+            </a>
+        </div>
+        <button class="navbar-toggle" id="navbar-toggle" aria-label="Toggle navigation">☰</button>
     </div>
-    <a href="#referensi-proyek">Referensi Proyek</a>
-    <a href="#kontak">Kontak</a>
-    <button class="navbar-toggle" id="navbar-toggle" aria-label="Toggle navigation">☰</button>
-
+    <div class="navbar-bottom">
+        <a href="#about">Tentang Produk</a>
+        <a href="#produk">Produk</a>
+        <a href="#referensi-proyek">Referensi Proyek</a>
+        <a href="#kontak">Kontak</a>
+    </div>
   </div>
 
   <section class="hero">
     <div class="hero-container">
-      <!-- Slide 1 -->
       <div class="hero-slide">
         <img src="content/images/HR/HR-1.svg" alt="High Quality">
         <div class="hero-caption">
@@ -76,16 +74,14 @@
           <h2>Standar mutu terbaik untuk sistem penyangga kabel</h2>
         </div>
       </div>
-      <!-- Slide 2 -->
       <div class="hero-slide">
-        <img src="content/images/HR/HR-2.svg" alt="Low Price">
+        <img src="content/images/HR/slide1.jpg" alt="Low Price">
         <div class="hero-caption">
           <h2>Primas Cabling Management Solutions</h2>
           <h1>COMPETITIVE CHOOSE</h1>
           <h2>Harga kompetitif tanpa mengurangi kualitas</h2>
         </div>
       </div>
-      <!-- Slide 3 -->
       <div class="hero-slide">
         <img src="content/images/HR/HR-3.svg" alt="Good Service">
         <div class="hero-caption">
@@ -163,103 +159,83 @@
       <div class="product">
         <img src="content/images/pi/1.svg" alt="Produk 1">
         <h3>Cover Tray & Ladder </h3>
-        <!-- <p>Solusi rapi dan aman untuk jalur kabel horizontal.</p> -->
-      </div>
+        </div>
       <div class="product">
         <img src="content/images/pi/2.svg" alt="Produk 2">
         <h3>Straight Ladder </h3>
-        <!-- <p>Kuat dan efisien untuk kabel berat dalam jalur vertikal maupun horizontal.</p> -->
-      </div>
+        </div>
       <div class="product">
         <img src="content/images/pi/3.svg" alt="Produk 3">
         <h3>Straight Tray </h3>
-        <!-- <p>Berbagai aksesoris pendukung untuk koneksi dan penguatan sistem.</p> -->
-      </div>
+        </div>
       <div class="product">
         <img src="content/images/pi/4.svg" alt="Produk 4">
         <h3>Elbow Radius</h3>
-        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
-      </div>
+        </div>
       <div class="product">
         <img src="content/images/pi/5.svg" alt="Produk 5">
         <h3>Elbow Siku </h3>
-        <!-- <p>Solusi rapi dan aman untuk jalur kabel horizontal.</p> -->
-      </div>
+        </div>
       <div class="product">
         <img src="content/images/pi/6.svg" alt="Produk 6">
         <h3>Inside Riser </h3>
-        <!-- <p>Kuat dan efisien untuk kabel berat dalam jalur vertikal maupun horizontal.</p> -->
-      </div>
+        </div>
       <div class="product">
         <img src="content/images/pi/7.svg" alt="Produk 7">
         <h3>Cable Cage</h3>
-        <!-- <p>Berbagai aksesoris pendukung untuk koneksi dan penguatan sistem.</p> -->
-      </div>
+        </div>
       <div class="product">
         <img src="content/images/pi/8.svg" alt="Produk 8">
         <h3>Reducer</h3>
-        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
-      </div>
+        </div>
       <div class="product">
         <img src="content/images/pi/9.svg" alt="Produk 9">
         <h3>Left Hand Reducer</h3>
-        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
-      </div>
+        </div>
       <div class="product">
         <img src="content/images/pi/10.svg" alt="Produk 10">
         <h3>Tee Tray</h3>
-        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
-      </div>
+        </div>
       <div class="product">
         <img src="content/images/pi/11.svg" alt="Produk 1">
         <h3>Cross Tray</h3>
-        <!-- <p>Solusi rapi dan aman untuk jalur kabel horizontal.</p> -->
-      </div>
+        </div>
       <div class="product">
         <img src="content/images/pi/13.svg" alt="Produk 3">
         <h3>Elbow </h3>
-        <!-- <p>Berbagai aksesoris pendukung untuk koneksi dan penguatan sistem.</p> -->
-      </div>
+        </div>
       <div class="product">
         <img src="content/images/pi/14.svg" alt="Produk 4">
         <h3>Inside Ladder</h3>
-        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
-      </div>
+        </div>
       <div class="product">
         <img src="content/images/pi/15.svg" alt="Produk 5">
         <h3>Outside Ladder</h3>
-        <!-- <p>Solusi rapi dan aman untuk jalur kabel horizontal.</p> -->
-      </div>
+        </div>
       <div class="product">
         <img src="content/images/pi/16.svg" alt="Produk 6">
         <h3>Tee Ladder </h3>
-        <!-- <p>Kuat dan efisien untuk kabel berat dalam jalur vertikal maupun horizontal.</p> -->
-      </div>
+        </div>
       <div class="product">
         <img src="content/images/pi/20.svg" alt="Produk 7">
         <h3>Cable Cage</h3>
-        <!-- <p>Berbagai aksesoris pendukung untuk koneksi dan penguatan sistem.</p> -->
-      </div>
+        </div>
       <div class="product">
         <img src="content/images/pi/18.svg" alt="Produk 8">
         <h3>Reducer</h3>
-        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
-      </div>
+        </div>
       <div class="product">
         <img src="content/images/pi/19.svg" alt="Produk 9">
         <h3>Cross Ladder</h3>
-        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
-      </div>
+        </div>
       <div class="product">
         <img src="content/images/pi/17.svg" alt="Produk 10">
         <h3>Accessories</h3>
-        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
-      </div>
+        </div>
       <div class="product">
         <img src="content/images/pi/21.svg" alt="Produk 10">
         <h3>Accessories</h3>
-        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
-      </div>
+        </div>
     </div>
     <div class="download-catalog">
       <a href="https://drive.google.com/file/d/1yRxC1-Wy41Pt-IP2pH-TWP0gGFg85Tbz/view?usp=sharing" class="btn-download">
@@ -268,11 +244,9 @@
     </div>
   </section>
 
-  <!-- New Referensi Proyek Section -->
   <section class="section" id="referensi-proyek">
     <h2>Referensi Proyek Primas Cable Tray & Cable Ladder</h2>
 
-    <!-- Grid ikon perusahaan -->
     <div class="ref-grid">
       <div class="ref-item">
         <img src="content/images/RP/RP-1.svg" alt="Logo Perusahaan 1">
@@ -349,8 +323,7 @@
       <div class="ref-item">
         <img src="content/images/RP/RP-25.svg" alt="Logo Perusahaan 12">
       </div>
-      <!-- ...tambahkan sesuai jumlah -->
-    </div>
+      </div>
     <div id="referensi-proyek" class="table-container">
       <table id="sheet-table">
         <thead>
