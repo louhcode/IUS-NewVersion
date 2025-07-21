@@ -81,6 +81,7 @@ a {
 .navbar a:hover {
   color: #f8b400;
 }
+
 .navbar-toggle {
   display: none; /* Sembunyikan secara default, tampilkan di mobile */
   background: none;
@@ -155,6 +156,32 @@ a {
   right: 20px;
 }
 
+/* Update style.css */
+/* Add this to the .hero-slide selector */
+.hero-slide::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.598), rgba(255, 255, 255, 0.598)); /* Siluet transparan dari bawah ke atas */
+  z-index: 1; /* Pastikan overlay berada di atas gambar */
+}
+
+/* Update style2.css */
+/* Add this to the .hero-slide selector */
+.hero-slide::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.598), rgba(255, 255, 255, 0.598)); /* Siluet transparan dari bawah ke atas */
+  z-index: 1; /* Pastikan overlay berada di atas gambar */
+}
+
 .section {
   max-width: 1350px;
   margin: auto;
@@ -219,6 +246,44 @@ a {
   font-size: 0.9rem;
   color: #555;
   margin-top: 0.5rem;
+}
+
+.certificate-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px; /* Jarak antar sertifikat ditingkatkan */
+    margin-top: 40px;
+}
+
+.certificate-item {
+    background-color: #fff;
+    padding: 25px; /* Padding ditingkatkan */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px; /* Lebar maksimum item sertifikat ditingkatkan */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certificate-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.certificate-item img {
+    max-width: 100%;
+    height: auto;
+    max-height: 250px; /* Tinggi maksimum gambar ditingkatkan */
+    object-fit: contain; /* Memastikan gambar terlihat penuh tanpa terpotong */
+    border-radius: 4px;
+    margin-bottom: 20px; /* Jarak bawah gambar ditingkatkan */
+}
+
+.certificate-item p {
+    font-size: 1.1rem; /* Ukuran font teks sertifikat ditingkatkan */
+    color: #555;
+    margin: 0;
 }
 
 .feature-grid {
@@ -516,6 +581,14 @@ th {
   .hero .next {
     right: 15px;
   }
+
+  .certificate-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    .certificate-item {
+        width: 90%;
+    }
 }
 
 @media (max-width: 480px) {
