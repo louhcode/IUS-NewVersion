@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Primas | Cable Tray & Cable Ladder Solutions Indonesia</title>
+    <meta name="description" content="PrimasTray menyediakan solusi Cable Tray dan Cable Ladder berkualitas tinggi di Indonesia dengan harga kompetitif dan layanan profesional sejak 2007.">
+    <meta name="keywords" content="PrimasTray, cable tray, cable ladder, sistem penyangga kabel, aksesori kabel, HDG, powder coating">
+    <link rel="canonical" href="https://primastray.com/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://primastray.com/">
+    <meta property="og:title" content="PrimasTray | Cable Tray & Cable Ladder Solutions Indonesia">
+    <meta property="og:description" content="Solusi Cable Tray & Cable Ladder berkualitas tinggi dengan harga kompetitif dan layanan terbaik. Cari produk unggulan kami hari ini!">
+    <meta property="og:image" content="https://primastray.com/wp-content/images/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://primastray.com/">
+    <meta property="twitter:title" content="PrimasTray | Cable Tray & Cable Ladder Solutions Indonesia">
+    <meta property="twitter:description" content="Solusi Cable Tray & Cable Ladder berkualitas tinggi dengan harga kompetitif dan layanan terbaik. Cari produk unggulan kami hari ini!">
+    <meta property="twitter:image" content="https://primastray.com/wp-content/images/og-image.jpg">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "PrimasTray",
+            "url": "https://primastray.com/",
+            "logo": "https://primastray.com/wp-content/images/PRIMAS.svg",
+            "contactPoint": [{
+                    "@type": "ContactPoint",
+                    "telephone": "+62-811-1345-013",
+                    "contactType": "Customer Service"
+                },
+                {
+                    "@type": "ContactPoint",
+                    "telephone": "+62-878-8296-0991",
+                    "contactType": "Customer Service"
+                }
+            ]
+        }
+    </script>
+  <link rel="icon" type="image/png" href="wp-content/images/icon.svg">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="navbar" id="navbar">
+    <a href="#about">Tentang Produk</a>
+    <a href="#produk">Produk</a>
+    <div class="navbar-logo">
+      <a href="/">
+        <img src="wp-content/images/PRIMAS.svg" alt="Primas Logo" />
+      </a>
+    </div>
+    <a href="#referensi-proyek">Referensi Proyek</a>
+    <a href="#kontak">Kontak</a>
+    <button class="navbar-toggle" id="navbar-toggle" aria-label="Toggle navigation">☰</button>
+
+  </div>
+
+  <section class="hero">
+    <div class="hero-container">
+      <!-- Slide 1 -->
+      <div class="hero-slide">
+        <img src="wp-content/images/HR/HR-1.svg" alt="High Quality">
+        <div class="hero-caption">
+          <h2>Primas Cabling Management Solutions</h2>
+          <h1>HIGH QUALITY</h1>
+          <h2>Standar mutu terbaik untuk sistem penyangga kabel</h2>
+        </div>
+      </div>
+      <!-- Slide 2 -->
+      <div class="hero-slide">
+        <img src="wp-content/images/HR/HR-2.svg" alt="Low Price">
+        <div class="hero-caption">
+          <h2>Primas Cabling Management Solutions</h2>
+          <h1>COMPETITIVE CHOOSE</h1>
+          <h2>Harga kompetitif tanpa mengurangi kualitas</h2>
+        </div>
+      </div>
+      <!-- Slide 3 -->
+      <div class="hero-slide">
+        <img src="wp-content/images/HR/HR-3.svg" alt="Good Service">
+        <div class="hero-caption">
+          <h2>Primas Cabling Management Solutions</h2>
+          <h1>GOOD SERVICE</h1>
+          <h2>Layanan cepat dan andal untuk kepuasan Anda</h2>
+        </div>
+      </div>
+    </div>
+
+    <button class="prev" onclick="moveSlide(-1)">❮</button>
+    <button class="next" onclick="moveSlide(1)">❯</button>
+  </section>
+
+  <section class="section" id="about">
+    <h2>Primas Cable Tray & Cable Ladder Solutions</h2>
+
+                <p>PrimasTray telah menjadi produsen lokal terkemuka solusi Cable Tray & Cable Ladder sejak 2007. Kami menyediakan sistem penyangga kabel lengkap—mulai dari Cable Tray, Cable Ladder, Terminal Box, hingga Pintu Darurat—dengan material SPHC, aluminium, dan stainless steel berkualitas tinggi.</p>
+
+
+    <!-- Di Tengah Sini DIkasih Konten Gambar ini -->
+    <figure class="about-figure">
+      <img src="wp-content/images/cableSS.svg"
+        alt="Primas Tray & Ladder dalam aplikasi industri" />
+      <!-- <figcaption>Contoh penerapan Primas Tray & Ladder di lapangan</figcaption> -->
+    </figure>
+
+                <p>Finishing tersedia dalam Hot Dipped Galvanized (HDG), powder coating, atau electroplating sesuai kebutuhan proyek Anda. Produk kami memenuhi Standar NEMA dan tahan di lingkungan ekstrem seperti minyak & gas, petrokimia, dan manufaktur.</p>
+
+  </section>
+
+  <section class="section" id="features">
+            <h2>Keunggulan Primas Cable Tray & Cable Ladder</h2>
+            <div class="feature-grid">
+                <article class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Bahan Berkualitas Tinggi</h3>
+                    <p>SPHC, aluminium, dan stainless steel pilihan untuk kekuatan optimal.</p>
+                </article>
+                <article class="feature-card">
+                    <div class="feature-icon">🛠️</div>
+                    <h3>Desain & Kustomisasi</h3>
+                    <p>Ukuran, bentuk, dan finishing disesuaikan dengan kebutuhan proyek Anda.</p>
+                </article>
+                <article class="feature-card">
+                    <div class="feature-icon">🌧️</div>
+                    <h3>Ketahanan Korosi</h3>
+                    <p>Finishing HDG, powder coating, atau electroplating untuk proteksi maksimal.</p>
+                </article>
+                <article class="feature-card">
+                    <div class="feature-icon">⚙️</div>
+                    <h3>Standar Industri NEMA</h3>
+                    <p>Memenuhi regulasi NEMA untuk keamanan dan performa instalasi kabel.</p>
+                </article>
+            </div>
+        </section>
+
+  <section class="section" id="produk">
+    <h2>Produk Kami</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="wp-content/images/pi/1.svg" alt="Produk 1">
+        <h3>Cover Tray & Ladder </h3>
+        <!-- <p>Solusi rapi dan aman untuk jalur kabel horizontal.</p> -->
+      </div>
+      <div class="product">
+        <img src="wp-content/images/pi/2.svg" alt="Produk 2">
+        <h3>Straight Ladder </h3>
+        <!-- <p>Kuat dan efisien untuk kabel berat dalam jalur vertikal maupun horizontal.</p> -->
+      </div>
+      <div class="product">
+        <img src="wp-content/images/pi/3.svg" alt="Produk 3">
+        <h3>Straight Tray </h3>
+        <!-- <p>Berbagai aksesoris pendukung untuk koneksi dan penguatan sistem.</p> -->
+      </div>
+      <div class="product">
+        <img src="wp-content/images/pi/4.svg" alt="Produk 4">
+        <h3>Elbow Radius</h3>
+        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
+      </div>
+      <div class="product">
+        <img src="wp-content/images/pi/5.svg" alt="Produk 5">
+        <h3>Elbow Siku </h3>
+        <!-- <p>Solusi rapi dan aman untuk jalur kabel horizontal.</p> -->
+      </div>
+      <div class="product">
+        <img src="wp-content/images/pi/6.svg" alt="Produk 6">
+        <h3>Inside Riser </h3>
+        <!-- <p>Kuat dan efisien untuk kabel berat dalam jalur vertikal maupun horizontal.</p> -->
+      </div>
+      <div class="product">
+        <img src="wp-content/images/pi/7.svg" alt="Produk 7">
+        <h3>Cable Cage</h3>
+        <!-- <p>Berbagai aksesoris pendukung untuk koneksi dan penguatan sistem.</p> -->
+      </div>
+      <div class="product">
+        <img src="wp-content/images/pi/8.svg" alt="Produk 8">
+        <h3>Reducer</h3>
+        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
+      </div>
+      <div class="product">
+        <img src="wp-content/images/pi/9.svg" alt="Produk 9">
+        <h3>Left Hand Reducer</h3>
+        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
+      </div>
+      <div class="product">
+        <img src="wp-content/images/pi/10.svg" alt="Produk 10">
+        <h3>Tee Tray</h3>
+        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
+      </div>
+      <div class="product">
+        <img src="wp-content/images/pi/11.svg" alt="Produk 1">
+        <h3>Cross Tray</h3>
+        <!-- <p>Solusi rapi dan aman untuk jalur kabel horizontal.</p> -->
+      </div>
+      <div class="product">
+        <img src="wp-content/images/pi/13.svg" alt="Produk 3">
+        <h3>Elbow </h3>
+        <!-- <p>Berbagai aksesoris pendukung untuk koneksi dan penguatan sistem.</p> -->
+      </div>
+      <div class="product">
+        <img src="wp-content/images/pi/14.svg" alt="Produk 4">
+        <h3>Inside Ladder</h3>
+        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
+      </div>
+      <div class="product">
+        <img src="wp-content/images/pi/15.svg" alt="Produk 5">
+        <h3>Outside Ladder</h3>
+        <!-- <p>Solusi rapi dan aman untuk jalur kabel horizontal.</p> -->
+      </div>
+      <div class="product">
+        <img src="wp-content/images/pi/16.svg" alt="Produk 6">
+        <h3>Tee Ladder </h3>
+        <!-- <p>Kuat dan efisien untuk kabel berat dalam jalur vertikal maupun horizontal.</p> -->
+      </div>
+      <div class="product">
+        <img src="wp-content/images/pi/20.svg" alt="Produk 7">
+        <h3>Cable Cage</h3>
+        <!-- <p>Berbagai aksesoris pendukung untuk koneksi dan penguatan sistem.</p> -->
+      </div>
+      <div class="product">
+        <img src="wp-content/images/pi/18.svg" alt="Produk 8">
+        <h3>Reducer</h3>
+        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
+      </div>
+      <div class="product">
+        <img src="wp-content/images/pi/19.svg" alt="Produk 9">
+        <h3>Cross Ladder</h3>
+        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
+      </div>
+      <div class="product">
+        <img src="wp-content/images/pi/17.svg" alt="Produk 10">
+        <h3>Accessories</h3>
+        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
+      </div>
+      <div class="product">
+        <img src="wp-content/images/pi/21.svg" alt="Produk 10">
+        <h3>Accessories</h3>
+        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- New Referensi Proyek Section -->
+  <section class="section" id="referensi-proyek">
+    <h2>Referensi Proyek Primas Cable Tray & Cable Ladder</h2>
+
+    <!-- Grid ikon perusahaan -->
+    <div class="ref-grid">
+      <div class="ref-item">
+        <img src="wp-content/images/RP/RP-1.svg" alt="Logo Perusahaan 1">
+      </div>
+      <div class="ref-item">
+        <img src="wp-content/images/RP/RP-2.svg" alt="Logo Perusahaan 2">
+      </div>
+      <div class="ref-item">
+        <img src="wp-content/images/RP/RP-3.svg" alt="Logo Perusahaan 3">
+      </div>
+      <div class="ref-item">
+        <img src="wp-content/images/RP/RP-4.svg" alt="Logo Perusahaan 4">
+      </div>
+      <div class="ref-item">
+        <img src="wp-content/images/RP/RP-5.svg" alt="Logo Perusahaan 5">
+      </div>
+      <div class="ref-item">
+        <img src="wp-content/images/RP/RP-6.svg" alt="Logo Perusahaan 6">
+      </div>
+      <div class="ref-item">
+        <img src="wp-content/images/RP/RP-7.svg" alt="Logo Perusahaan 7">
+      </div>
+      <div class="ref-item">
+        <img src="wp-content/images/RP/RP-8.svg" alt="Logo Perusahaan 8">
+      </div>
+      <div class="ref-item">
+        <img src="wp-content/images/RP/RP-9.svg" alt="Logo Perusahaan 9">
+      </div>
+      <div class="ref-item">
+        <img src="wp-content/images/RP/RP-10.svg" alt="Logo Perusahaan 10">
+      </div>
+      <div class="ref-item">
+        <img src="wp-content/images/RP/RP-11.svg" alt="Logo Perusahaan 11">
+      </div>
+      <div class="ref-item">
+        <img src="wp-content/images/RP/RP-12.svg" alt="Logo Perusahaan 12">
+      </div>
+      <div class="ref-item">
+        <img src="wp-content/images/RP/RP-13.svg" alt="Logo Perusahaan 12">
+      </div>
+      <div class="ref-item">
+        <img src="wp-content/images/RP/RP-14.svg" alt="Logo Perusahaan 12">
+      </div>
+      <div class="ref-item">
+        <img src="wp-content/images/RP/RP-15.svg" alt="Logo Perusahaan 12">
+      </div>
+      <div class="ref-item">
+        <img src="wp-content/images/RP/RP-16.svg" alt="Logo Perusahaan 12">
+      </div>
+      <div class="ref-item">
+        <img src="wp-content/images/RP/RP-17.svg" alt="Logo Perusahaan 12">
+      </div>
+      <div class="ref-item">
+        <img src="wp-content/images/RP/RP-18.svg" alt="Logo Perusahaan 12">
+      </div>
+      <div class="ref-item">
+        <img src="wp-content/images/RP/RP-19.svg" alt="Logo Perusahaan 12">
+      </div>
+      <div class="ref-item">
+        <img src="wp-content/images/RP/RP-20.svg" alt="Logo Perusahaan 12">
+      </div>
+      <div class="ref-item">
+        <img src="wp-content/images/RP/RP-21.svg" alt="Logo Perusahaan 12">
+      </div>
+      <div class="ref-item">
+        <img src="wp-content/images/RP/RP-22.svg" alt="Logo Perusahaan 12">
+      </div>
+      <div class="ref-item">
+        <img src="wp-content/images/RP/RP-23.svg" alt="Logo Perusahaan 12">
+      </div>
+      <div class="ref-item">
+        <img src="wp-content/images/RP/RP-24.svg" alt="Logo Perusahaan 12">
+      </div>
+      <div class="ref-item">
+        <img src="wp-content/images/RP/RP-25.svg" alt="Logo Perusahaan 12">
+      </div>
+      <!-- ...tambahkan sesuai jumlah -->
+    </div>
+    <div id="referensi-proyek" class="table-container">
+      <table id="sheet-table">
+        <thead>
+          <tr></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="view-more" style="margin: 50px 0;">
+      <a href="rp.php" class="view-more-btn">Klik untuk melihat selengkapnya</a>
+    </div>
+  </section>
+
+  <section class="section" id="kontak">
+    <h2>Dapatkan Penawaran</h2>
+    <p>Untuk detail dan dukungan lebih lanjut, silakan menghubungi kami pada kontak berikut.</p>
+
+    <ul class="contact-list">
+      <li>
+        <h3>Henry DS.</h3>
+        <p><strong>Email:</strong> <a href="mailto:primastray@yahoo.com">primastray@yahoo.com</a></p>
+        <p><strong>Telp/WA:</strong> <a href="tel:+628111345013">+62 811-1345-013</a></p>
+        <a class="btn-wa" href="https://wa.me/6281122233344?text=Halo%20Henry,%20saya%20ingin%20tanya%20mengenai%20produk%20Primas" target="_blank" rel="noopener">
+          Chat via WhatsApp
+        </a>
+      </li>
+      <li>
+        <h3>Yusuf K.</h3>
+        <p><strong>Email:</strong> <a href="mailto:primastray@yahoo.com">primastray@yahoo.com</a></p>
+        <p><strong>Telp/WA:</strong> <a href="tel:+6287882960991">+62 878-8296-0991</a></p>
+        <a class="btn-wa" href="https://wa.me/6287882960991?text=Halo%20Yusuf,%20saya%20ingin%20tanya%20mengenai%20produk%20Primas" target="_blank" rel="noopener">
+          Chat via WhatsApp
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Primas. All rights reserved.</p>
+  </footer>
+
+
+  <script src="js/carousel.js"></script>
+  <script src="js/navbar-scroll.js"></script>
+  <script src="js/section-observer.js"></script>
+  <script src="js/navbar-toggle.js"></script>
+  <script src="js/sheet-table.js"></script>
+
+</body>
+
+</html>
