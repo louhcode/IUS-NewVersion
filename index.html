@@ -421,7 +421,7 @@
     </section>
 
     <footer class="footer">
-      <p>&copy; 2025 Primas. All rights reserved.</p>
+      <p>&copy; 2023 - <span id="current-year"></span> Indo Use Solutions. All rights reserved.</p>
     </footer>
 
     <script src="content/js/carousel.js"></script>
@@ -429,5 +429,10 @@
     <script src="content/js/section-observer.js"></script>
     <script src="content/js/navbar-toggle.js"></script>
     <script src="content/js/sheet-table.js"></script>
+    <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  });
+</script>
   </body>
 </html>
