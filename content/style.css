@@ -36,7 +36,7 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 15px 40px;
+  padding: 10px 40px;
   display: flex;
   flex-direction: column; /* Mengubah arah flex menjadi kolom */
   align-items: center; /* Pusatkan konten secara horizontal */
@@ -55,7 +55,6 @@ a {
   justify-content: space-between; /* Untuk mendorong logo dan tombol toggle ke ujung */
   align-items: center;
   width: 100%; /* Agar memenuhi lebar navbar */
-  padding-bottom: 10px; /* Jarak antara logo dan tautan navigasi */
 }
 
 .navbar-logo {
@@ -64,22 +63,24 @@ a {
 }
 
 .navbar-logo img {
-  height: 80px;
+  height: 60px;
 }
 
 .navbar-bottom {
   display: flex; /* Tautan navigasi tetap dalam baris */
   justify-content: center; /* Pusatkan tautan navigasi */
   width: 100%;
+  padding-bottom: 10px; /* Jarak antara logo dan tautan navigasi */
 }
 
 .navbar a {
-  color: #000000;
+  color: #3e4997;
   margin: 0 20px;
-  font-size: 17px;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Menambahkan bayangan teks */
 }
 .navbar a:hover {
-  color: #f8b400;
+  color: #cf2c28;
 }
 
 .navbar-toggle {
@@ -112,12 +113,12 @@ a {
   object-fit: cover;
 }
 .hero-caption {
-  position: absolute;
+  position: absolute; /* Pastikan ini tetap 'absolute' */
+  z-index: 2; /* Tambahkan baris ini */
   top: 40%;
   width: 100%;
   text-align: center;
-  color: #fff;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+  color: #000; /* Pastikan ini #000 (hitam) */
 }
 .hero-caption h1 {
   font-size: 3rem;
@@ -156,29 +157,18 @@ a {
   right: 20px;
 }
 
-/* Update style.css */
-/* Add this to the .hero-slide selector */
 .hero-slide::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to top, rgba(255, 255, 255, 0.598), rgba(255, 255, 255, 0.598)); /* Siluet transparan dari bawah ke atas */
-  z-index: 1; /* Pastikan overlay berada di atas gambar */
-}
-
-/* Update style2.css */
-/* Add this to the .hero-slide selector */
-.hero-slide::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to top, rgba(255, 255, 255, 0.598), rgba(255, 255, 255, 0.598)); /* Siluet transparan dari bawah ke atas */
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0.598),
+    rgba(255, 255, 255, 0.598)
+  ); /* Siluet transparan dari bawah ke atas */
   z-index: 1; /* Pastikan overlay berada di atas gambar */
 }
 
@@ -249,41 +239,41 @@ a {
 }
 
 .certificate-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px; /* Jarak antar sertifikat ditingkatkan */
-    margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px; /* Jarak antar sertifikat ditingkatkan */
+  margin-top: 40px;
 }
 
 .certificate-item {
-    background-color: #fff;
-    padding: 25px; /* Padding ditingkatkan */
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    max-width: 400px; /* Lebar maksimum item sertifikat ditingkatkan */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+  padding: 25px; /* Padding ditingkatkan */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px; /* Lebar maksimum item sertifikat ditingkatkan */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .certificate-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
 
 .certificate-item img {
-    max-width: 100%;
-    height: auto;
-    max-height: 250px; /* Tinggi maksimum gambar ditingkatkan */
-    object-fit: contain; /* Memastikan gambar terlihat penuh tanpa terpotong */
-    border-radius: 4px;
-    margin-bottom: 20px; /* Jarak bawah gambar ditingkatkan */
+  max-width: 100%;
+  height: auto;
+  max-height: 250px; /* Tinggi maksimum gambar ditingkatkan */
+  object-fit: contain; /* Memastikan gambar terlihat penuh tanpa terpotong */
+  border-radius: 4px;
+  margin-bottom: 20px; /* Jarak bawah gambar ditingkatkan */
 }
 
 .certificate-item p {
-    font-size: 1.1rem; /* Ukuran font teks sertifikat ditingkatkan */
-    color: #555;
-    margin: 0;
+  font-size: 1.1rem; /* Ukuran font teks sertifikat ditingkatkan */
+  color: #555;
+  margin: 0;
 }
 
 .feature-grid {
@@ -327,31 +317,43 @@ a {
   font-size: 2.5rem;
 }
 
-.product-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
+.layanan-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(250px, 1fr)
+  ); /* Kolom adaptif */
+  gap: 25px; /* Jarak antar item */
   margin-top: 40px;
+  justify-content: center; /* Pusatkan grid */
 }
-.product {
-  width: 200px;
+
+.layanan-item {
   background-color: #fff;
   padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.product img {
-  max-width: 100%;
-  max-height: 150px;
-  border-radius: 6px;
-  margin-bottom: 8px;
+
+.layanan-item:hover {
+  transform: translateY(-8px); /* Efek melayang saat hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
-.product:hover {
-  transform: scale(1.03);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15); /* kamu potong di akhir, saya lengkapi */
+
+.layanan-item img {
+  width: 100%; /* Lebar gambar memenuhi kontainer */
+  max-height: 180px; /* Tinggi maksimum gambar */
+  object-fit: cover; /* Memastikan gambar mengisi area tanpa distorsi */
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.layanan-item h3 {
+  font-size: 1.2rem;
+  color: #0d47a1;
+  margin: 0;
 }
 
 .download-catalog {
@@ -583,12 +585,12 @@ th {
   }
 
   .certificate-grid {
-        flex-direction: column;
-        align-items: center;
-    }
-    .certificate-item {
-        width: 90%;
-    }
+    flex-direction: column;
+    align-items: center;
+  }
+  .certificate-item {
+    width: 90%;
+  }
 }
 
 @media (max-width: 480px) {
