@@ -103,28 +103,66 @@ a {
   height: 600px;
   overflow: hidden;
 }
+
+/* Modifikasi: Pastikan gambar latar belakang tetap statis */
+.hero-static-bg {
+  position: absolute; /* Posisi absolut agar menutupi .hero */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Pastikan gambar menutupi seluruh area tanpa terdistorsi */
+  z-index: 0; /* Pastikan gambar berada di lapisan paling belakang */
+}
+
 .hero-container {
-  display: flex;
+  /* Hapus display: flex; dan transition: transform; */
+  /* Ini yang menyebabkan seluruh container dan isinya bergeser */
+  position: relative; /* Container untuk slide yang akan diatur posisinya secara absolut */
+  width: 100%;
   height: 100%;
-  transition: transform 0.8s ease;
+  /* Tidak ada lagi transform transition di sini */
 }
+
 .hero-slide {
-  flex: 0 0 100%;
-  position: relative;
-}
-.hero-slide img {
+  position: absolute; /* Buat slide saling menumpuk */
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  opacity: 0; /* Sembunyikan slide secara default */
+  transition: opacity 1s ease-in-out; /* Animasi transisi fade */
+  pointer-events: none; /* Nonaktifkan interaksi pada slide yang tidak aktif */
+  display: flex; /* Gunakan flexbox untuk memposisikan konten di tengah */
+  align-items: center; /* Pusatkan vertikal */
+  justify-content: center; /* Pusatkan horizontal (untuk hero-caption) */
 }
+
+.hero-slide.active {
+  opacity: 1; /* Tampilkan slide yang aktif */
+  pointer-events: auto; /* Aktifkan interaksi pada slide yang aktif */
+  z-index: 1; /* Bawa slide aktif ke depan */
+}
+
 .hero-caption {
-  position: absolute; /* Pastikan ini tetap 'absolute' */
-  z-index: 2; /* Tambahkan baris ini */
-  top: 40%;
-  width: 100%;
+  position: relative; /* Ganti dari 'absolute' ke 'relative' agar flexbox di .hero-slide bisa memposisikannya */
+  z-index: 2; /* Pastikan teks di atas gambar latar belakang */
+  top: auto; /* Hapus 'top' karena sudah diatur oleh flexbox */
+  width: 80%; /* Sesuaikan lebar agar responsif */
   text-align: center;
-  color: #000000; /* Pastikan ini #000 (hitam) */
+  color: #000000; /* Ubah warna teks agar terlihat jelas di latar belakang */
+  /* Animasi awal untuk teks */
+  opacity: 0;
+  transform: translateY(20px); /* Mulai sedikit di bawah */
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out; /* Animasi fade dan geser */
+  transition-delay: 0.3s; /* Beri sedikit jeda sebelum animasi teks dimulai */
 }
+
+.hero-slide.active .hero-caption {
+  opacity: 1; /* Teks akan terlihat penuh */
+  transform: translateY(0); /* Teks akan bergerak ke posisi normal */
+}
+
 .hero-caption h1 {
   font-size: 3rem;
 }
@@ -132,6 +170,8 @@ a {
   font-size: 1rem;
   font-weight: 400;
 }
+
+/* Navigasi prev/next tetap sama */
 .hero .prev,
 .hero .next {
   position: absolute;
@@ -148,7 +188,7 @@ a {
   font-size: 24px;
   color: #fff;
   cursor: pointer;
-  z-index: 2;
+  z-index: 3; /* Pastikan tombol di atas teks */
   transition: background 0.2s;
 }
 .hero .prev:hover,
