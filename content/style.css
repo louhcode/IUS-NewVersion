@@ -566,24 +566,79 @@ th {
     padding: 15px 30px;
   }
   .navbar-logo img {
-    height: 25px;
+    height: 40px; /* Adjusted for better visibility */
   }
-  /* Tidak perlu margin untuk a di desktop, sudah diatur di .navbar-bottom */
+  .navbar a {
+    font-size: 15px; /* Slightly smaller font for navigation links */
+    margin: 0 15px;
+  }
+  .hero {
+    height: 500px; /* Reduced height for medium screens */
+  }
+  .hero-caption h1 {
+    font-size: 2.5rem; /* Smaller heading for hero section */
+  }
+  .hero-caption h2 {
+    font-size: 0.9rem; /* Smaller sub-heading */
+  }
+  .section {
+    padding: 70px 30px; /* Adjusted padding */
+  }
+  .section h2 {
+    font-size: 2.2rem; /* Smaller section headings */
+  }
+  .feature-card,
+  .certificate-item {
+    max-width: 350px; /* Adjust max-width for cards */
+  }
+  .layanan-grid {
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(220px, 1fr)
+    ); /* Smaller min-width for layanan items */
+    gap: 20px;
+  }
+  .ref-grid {
+    gap: 12px;
+    margin: 80px 0;
+  }
+  .ref-item {
+    width: 110px;
+  }
 }
 
 @media (max-width: 768px) {
   .navbar {
     justify-content: space-between;
     padding: 10px 20px;
+    flex-direction: row; /* Navbar becomes row to accommodate toggle button */
   }
   .navbar-toggle {
     display: block; /* Tampilkan tombol toggle di mobile */
+    color: #3e4997; /* Change color for visibility */
+    order: 2; /* Place toggle button to the right */
+  }
+  .navbar-logo {
+    flex-grow: 0; /* Reset flex-grow for logo */
+    text-align: left; /* Align logo to the left */
+    padding: 0;
+    order: 1; /* Place logo to the left */
+  }
+  .navbar-logo img {
+    height: 35px; /* Smaller logo */
   }
   /* Sembunyikan .navbar-bottom secara default, tampilkan saat .navbar.open */
   .navbar-bottom {
     display: none;
     flex-direction: column; /* Tautan navigasi menjadi kolom di mobile */
     align-items: center;
+    position: absolute; /* Position below the top bar */
+    top: 60px; /* Adjust based on navbar-top height */
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98); /* Solid background for dropdown */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
   }
   .navbar.open .navbar-bottom {
     display: flex; /* Tampilkan saat navbar dibuka */
@@ -592,31 +647,35 @@ th {
     width: 100%;
     margin: 8px 0;
     text-align: center;
-    font-size: 10px;
+    font-size: 16px; /* Readable font size for mobile menu */
+    color: #3e4997; /* Color for menu items */
+    text-shadow: none; /* Remove text shadow */
+    padding: 5px 0;
   }
 
   .navbar-top {
     justify-content: space-between; /* Tetap space-between untuk mobile agar logo dan toggle di ujung */
     padding-bottom: 0;
+    width: 100%;
   }
-  .navbar-logo {
-    flex-grow: 1; /* Pastikan logo tetap mengambil ruang */
-    text-align: center; /* Pusatkan logo */
-  }
+
   .hero {
-    height: 350px;
+    height: 400px; /* Further reduced height */
+  }
+  .hero-caption {
+    width: 90%; /* Wider caption area */
   }
   .hero-caption h1 {
     font-size: 2rem;
   }
   .hero-caption h2 {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   .section {
-    padding: 60px 20px;
+    padding: 50px 20px;
   }
   .section h2 {
-    font-size: 1.75rem;
+    font-size: 2rem;
   }
 
   .section h2::before,
@@ -624,25 +683,50 @@ th {
     transform: none;
     content: none; /* opsional, jika kamu ingin elemen pseudo tidak tampil sama sekali */
   }
-  .product {
-    width: 45%;
+  .feature-grid {
+    flex-direction: column; /* Stack feature cards vertically */
+    align-items: center;
+  }
+  .feature-card {
+    min-width: unset; /* Remove min-width to allow full width */
+    width: 90%; /* Take up more width */
+    max-width: 450px; /* Limit max width */
+  }
+  .layanan-grid {
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(180px, 1fr)
+    ); /* Even smaller min-width for layanan items */
+    gap: 15px;
+  }
+  .certificate-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  .certificate-item {
+    width: 90%;
+    max-width: 450px;
+    padding: 20px;
+  }
+  .certificate-item img {
+    max-height: 200px;
   }
   .ref-grid {
-    gap: 16px;
-    margin: 60px 0;
+    gap: 10px;
+    margin: 50px 0;
   }
   .ref-item {
-    width: 120px;
+    width: 90px;
   }
   .ref-item img {
-    max-width: 100px;
-    margin-bottom: 6px;
+    max-width: 80px;
+    margin-bottom: 5px;
   }
   .table-container {
     margin-top: 20px;
   }
   table {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
   }
   th,
   td {
@@ -650,7 +734,7 @@ th {
   }
   .contact-list {
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 1.5rem;
   }
   .hero .prev,
   .hero .next {
@@ -663,17 +747,22 @@ th {
   .hero .next {
     right: 15px;
   }
-
-  .certificate-grid {
-    flex-direction: column;
-    align-items: center;
-  }
-  .certificate-item {
-    width: 90%;
-  }
 }
 
 @media (max-width: 480px) {
+  .navbar {
+    padding: 8px 15px;
+  }
+  .navbar-logo img {
+    height: 30px; /* Even smaller logo */
+  }
+  .navbar-bottom {
+    top: 50px; /* Adjust top for smaller navbar height */
+  }
+  .navbar-bottom a {
+    font-size: 14px;
+    padding: 4px 0;
+  }
   .hero {
     height: 300px;
   }
@@ -689,13 +778,16 @@ th {
     right: 10px;
   }
   .hero-caption h1 {
-    font-size: 1rem;
+    font-size: 1.5rem; /* Smaller heading for very small screens */
   }
   .hero-caption h2 {
-    font-size: 0.7rem;
+    font-size: 0.75rem; /* Smaller sub-heading */
+  }
+  .section {
+    padding: 40px 15px;
   }
   .section h2 {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
   }
 
   .section h2::before,
@@ -704,23 +796,72 @@ th {
     content: none; /* opsional, jika kamu ingin elemen pseudo tidak tampil sama sekali */
   }
   .section p {
+    font-size: 0.9rem;
+  }
+  .feature-card {
+    padding: 1rem;
+  }
+  .feature-icon {
+    font-size: 3rem;
+  }
+  .feature-card h3 {
+    font-size: 1rem;
+  }
+  .feature-card p {
+    font-size: 0.7rem;
+  }
+  .layanan-grid {
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(150px, 1fr)
+    ); /* Smallest min-width for layanan items */
+    gap: 10px;
+  }
+  .layanan-item {
+    height: 200px; /* Reduced height for layanan items */
+  }
+  .layanan-item h3 {
+    font-size: 1rem;
+    padding: 15px;
+  }
+  .certificate-item {
+    padding: 15px;
+  }
+  .certificate-item img {
+    max-height: 150px;
+  }
+  .certificate-item p {
+    font-size: 0.9rem;
+  }
+  .ref-grid {
+    gap: 8px;
+    margin: 40px 0;
+  }
+  .ref-item {
+    width: 70px;
+  }
+  .ref-item img {
+    max-width: 60px;
+    margin-bottom: 3px;
+  }
+  table {
     font-size: 0.7rem;
   }
   th,
   td {
     padding: 4px 6px;
   }
-  .ref-item {
-    width: 100px;
-  }
-  .ref-item img {
-    max-width: 80px;
-    margin-bottom: 4px;
-  }
-  .product {
-    width: 90%;
-  }
-  .product h3 {
+  .contact-list li p {
     font-size: 0.9rem;
   }
+  .btn-wa {
+    padding: 6px 12px;
+    font-size: 0.9rem;
+  }
+  .footer {
+    padding: 10px;
+    font-size: 0.8rem;
+  }
 }
+
+
